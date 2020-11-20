@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import { MainHero } from "../components/MainHero";
 import { OurBrands } from "../components/OurBrands";
 import { OurValues } from "../components/OurValues";
-import { WorkWithUs } from "../components/WorkWithUs";
+// import { WorkWithUs } from "../components/WorkWithUs";
 
 function IndexPage() {
   return (
