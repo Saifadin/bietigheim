@@ -1,9 +1,11 @@
 import React from "react";
+import { Footer } from "../components/Footer";
 
+import SEO from "../components/seo";
 import { MainHero } from "../components/MainHero";
 import { OurBrands } from "../components/OurBrands";
 import { OurValues } from "../components/OurValues";
-import SEO from "../components/seo";
+import { WorkWithUs } from "../components/WorkWithUs";
 
 function IndexPage() {
   return (
@@ -13,6 +15,9 @@ function IndexPage() {
       <MainHero />
       <OurValues />
       <OurBrands />
+      <WorkWithUs />
+
+      <Footer />
     </div>
   );
 }
