@@ -15,7 +15,7 @@ function IndexPage() {
       <MainHero />
       <OurValues />
       <OurBrands />
-      <WorkWithUs />
+      {/* <WorkWithUs /> */}
 
       <Footer />
     </div>
